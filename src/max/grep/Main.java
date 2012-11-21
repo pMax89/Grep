@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
 	private static String s;
 	
-	// точка входа в программу
+	// Entry
 	public static void main(String[] args) {
 		
 		Scanner c = new Scanner(System.in);
-		// начинаем перебор по строчкам
+		// parse line
 		while (c.hasNext()) {
 			s = c.nextLine();
 			for (String string : args) 
